@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(../img/pexels-aleksandar-pasaric-1323712.jpg);
+}
+
+.card {
+    width: 32%;
+    min-height: 310px;
+    border: 1px solid red;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.card-text, .card-title {
+    text-align: center;
+}
+
+.card-title {
+    padding-top: 5px;
+}
+
+.buttons {
+    width: 90%;
+    min-height: 30px;
+    border: 1px solid black;
+    margin-top: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+
+
+@media (max-width: 769px) {
+    .card {
+        width: 90%;
+        margin: 0;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+}
